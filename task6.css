@@ -1,0 +1,39 @@
+.info{
+    display: flex;
+}
+
+h2 {
+    text-align: center;
+    border: solid 2px black;
+    background-color: red;
+    height: 40px;
+    margin: 0;
+}
+
+#list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.stats {
+    margin: auto;
+    margin-right: 10px;
+}
+
+.card {
+    border: solid 2px black;
+    background-color: gray;
+    margin: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
+    transition: 0.5s;
+
+}
+
+.card:hover {
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 1);
+}
+
+html {
+    background-color: wheat;
+}
